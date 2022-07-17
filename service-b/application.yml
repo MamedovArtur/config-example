@@ -3,8 +3,7 @@ custom:
 server:
   port: 8082
 management:
-  port: 8082
   endpoints:
     web:
       exposure:
-        include: *
+        include: info,health,metrics

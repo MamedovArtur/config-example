@@ -2,8 +2,8 @@ custom:
   prop: Hello World!!!
 server:
   port: 8082
-
 management:
+  port: 8082
   endpoints:
     web:
       exposure:

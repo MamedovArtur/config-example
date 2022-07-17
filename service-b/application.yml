@@ -1,2 +1,4 @@
 custom:
   prop: Hello World!!!
+server:
+  port: 8082

@@ -1,2 +1,7 @@
 custom:
   prop: hello world
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,metrics
